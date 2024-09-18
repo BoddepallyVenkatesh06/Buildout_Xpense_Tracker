@@ -1,0 +1,386 @@
+{
+  "cypress": {
+    "browserName": "electron",
+    "browserPath": "",
+    "browserVersion": "118.0.5993.159",
+    "config": {
+      "projectRoot": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master",
+      "projectName": "xTracker-master",
+      "configFile": "cypress.config.js",
+      "isTextTerminal": true,
+      "animationDistanceThreshold": 5,
+      "arch": "x64",
+      "baseUrl": null,
+      "blockHosts": null,
+      "chromeWebSecurity": true,
+      "clientCertificates": [],
+      "defaultCommandTimeout": 4000,
+      "downloadsFolder": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/downloads",
+      "env": {},
+      "execTimeout": 60000,
+      "experimentalCspAllowList": false,
+      "experimentalFetchPolyfill": false,
+      "experimentalInteractiveRunEvents": false,
+      "experimentalRunAllSpecs": false,
+      "experimentalMemoryManagement": false,
+      "experimentalModifyObstructiveThirdPartyCode": false,
+      "experimentalSkipDomainInjection": null,
+      "experimentalOriginDependencies": false,
+      "experimentalSourceRewriting": false,
+      "experimentalSingleTabRunMode": false,
+      "experimentalStudio": false,
+      "experimentalWebKitSupport": false,
+      "fileServerFolder": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master",
+      "fixturesFolder": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/fixtures",
+      "excludeSpecPattern": "*.hot-update.js",
+      "includeShadowDom": false,
+      "keystrokeDelay": 0,
+      "modifyObstructiveCode": true,
+      "numTestsKeptInMemory": 0,
+      "platform": "linux",
+      "pageLoadTimeout": 60000,
+      "port": 44581,
+      "projectId": null,
+      "redirectionLimit": 20,
+      "reporter": "spec",
+      "reporterOptions": null,
+      "requestTimeout": 5000,
+      "resolvedNodePath": "/home/mohak/.nvm/versions/node/v21.2.0/bin/node",
+      "resolvedNodeVersion": "21.2.0",
+      "responseTimeout": 30000,
+      "retries": {
+        "runMode": 0,
+        "openMode": 0
+      },
+      "screenshotOnRunFailure": true,
+      "screenshotsFolder": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/screenshots",
+      "slowTestThreshold": 10000,
+      "scrollBehavior": "top",
+      "supportFile": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/support/e2e.js",
+      "taskTimeout": 60000,
+      "testIsolation": true,
+      "trashAssetsBeforeRuns": true,
+      "userAgent": null,
+      "video": false,
+      "videoCompression": false,
+      "videosFolder": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/videos",
+      "viewportHeight": 660,
+      "viewportWidth": 1000,
+      "waitForAnimations": true,
+      "watchForFileChanges": false,
+      "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+      "browsers": [
+        {
+          "channel": "stable",
+          "displayName": "Electron",
+          "family": "chromium",
+          "majorVersion": 118,
+          "name": "electron",
+          "path": "",
+          "version": "118.0.5993.159"
+        }
+      ],
+      "cypressBinaryRoot": "/home/mohak/.cache/Cypress/13.13.1/Cypress/resources/app",
+      "hosts": null,
+      "isInteractive": true,
+      "version": "13.13.1",
+      "testingType": "e2e",
+      "browser": null,
+      "cypressInternalEnv": "production"
+    },
+    "cypressVersion": "13.13.1",
+    "endedTestsAt": "2024-07-22T05:21:23.049Z",
+    "osName": "linux",
+    "osVersion": "Ubuntu - ",
+    "runs": [
+      {
+        "error": null,
+        "reporter": "spec",
+        "reporterStats": {
+          "suites": 2,
+          "tests": 5,
+          "passes": 5,
+          "pending": 0,
+          "failures": 0,
+          "start": "2024-07-22T05:21:13.146Z",
+          "end": "2024-07-22T05:21:23.054Z",
+          "duration": 9908
+        },
+        "screenshots": [],
+        "spec": {
+          "absolute": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/cypress/e2e/spec.cy.js",
+          "fileExtension": ".js",
+          "fileName": "spec",
+          "name": "spec.cy.js",
+          "relative": "cypress/e2e/spec.cy.js"
+        },
+        "stats": {
+          "duration": 9909,
+          "endedAt": "2024-07-22T05:21:23.049Z",
+          "failures": 0,
+          "passes": 5,
+          "pending": 0,
+          "skipped": 0,
+          "startedAt": "2024-07-22T05:21:13.140Z",
+          "suites": 2,
+          "tests": 5
+        },
+        "tests": [
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 413,
+            "state": "passed",
+            "title": [
+              "LandingPageForm Initial State Tests",
+              "should display initial state correctly"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 1215,
+            "state": "passed",
+            "title": [
+              "LandingPageForm Initial State Tests",
+              "should update the state and navigate on form submission"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 1336,
+            "state": "passed",
+            "title": [
+              "LandingPageForm Initial State Tests",
+              "should reset transactions and form data"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 1157,
+            "state": "passed",
+            "title": [
+              "ExpenseForm",
+              "should render the form"
+            ]
+          },
+          {
+            "attempts": [
+              {
+                "state": "passed"
+              }
+            ],
+            "displayError": null,
+            "duration": 4557,
+            "state": "passed",
+            "title": [
+              "ExpenseForm",
+              "should handle form submission and update state"
+            ]
+          }
+        ],
+        "video": null
+      }
+    ],
+    "startedTestsAt": "2024-07-22T05:21:13.140Z",
+    "totalDuration": 9909,
+    "totalFailed": 0,
+    "totalPassed": 5,
+    "totalPending": 0,
+    "totalSkipped": 0,
+    "totalSuites": 2,
+    "totalTests": 5
+  },
+  "jest": {
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 3,
+    "numPassedTests": 11,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 3,
+    "numTotalTests": 11,
+    "openHandles": [],
+    "snapshot": {
+      "added": 0,
+      "didUpdate": false,
+      "failure": false,
+      "filesAdded": 0,
+      "filesRemoved": 0,
+      "filesRemovedList": [],
+      "filesUnmatched": 0,
+      "filesUpdated": 0,
+      "matched": 0,
+      "total": 0,
+      "unchecked": 0,
+      "uncheckedKeysByFile": [],
+      "unmatched": 0,
+      "updated": 0
+    },
+    "startTime": 1721625700583,
+    "success": true,
+    "testResults": [
+      {
+        "assertionResults": [
+          {
+            "ancestorTitles": [
+              "transaction slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "transaction slice reducers should handle addTransactionEntry",
+            "location": null,
+            "status": "passed",
+            "title": "should handle addTransactionEntry"
+          },
+          {
+            "ancestorTitles": [
+              "transaction slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "transaction slice reducers should handle removeTransactionEntry",
+            "location": null,
+            "status": "passed",
+            "title": "should handle removeTransactionEntry"
+          },
+          {
+            "ancestorTitles": [
+              "transaction slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "transaction slice reducers should handle removeAllTransactions",
+            "location": null,
+            "status": "passed",
+            "title": "should handle removeAllTransactions"
+          }
+        ],
+        "endTime": 1721625712043,
+        "message": "",
+        "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/transactionSlice.test.js",
+        "startTime": 1721625705480,
+        "status": "passed",
+        "summary": ""
+      },
+      {
+        "assertionResults": [
+          {
+            "ancestorTitles": [
+              "user slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "user slice reducers should handle updateUserName",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateUserName"
+          },
+          {
+            "ancestorTitles": [
+              "user slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "user slice reducers should handle updateMonthlyBudget",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateMonthlyBudget"
+          },
+          {
+            "ancestorTitles": [
+              "user slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "user slice reducers should handle updateCategoricalBudget",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateCategoricalBudget"
+          },
+          {
+            "ancestorTitles": [
+              "user slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "user slice reducers should handle updateActiveFilter",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateActiveFilter"
+          },
+          {
+            "ancestorTitles": [
+              "user slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "user slice reducers should handle resetAllBudget",
+            "location": null,
+            "status": "passed",
+            "title": "should handle resetAllBudget"
+          }
+        ],
+        "endTime": 1721625712046,
+        "message": "",
+        "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/userSlice.test.js",
+        "startTime": 1721625705479,
+        "status": "passed",
+        "summary": ""
+      },
+      {
+        "assertionResults": [
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle updateTotalExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateTotalExpense"
+          },
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle updateCategoricalExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle updateCategoricalExpense"
+          },
+          {
+            "ancestorTitles": [
+              "expense slice reducers"
+            ],
+            "failureMessages": [],
+            "fullName": "expense slice reducers should handle resetAllExpense",
+            "location": null,
+            "status": "passed",
+            "title": "should handle resetAllExpense"
+          }
+        ],
+        "endTime": 1721625724458,
+        "message": "",
+        "name": "/mnt/c/Users/trive/Documents/crioContent/xTracker-master (2)/xTracker-master/src/__tests__/expenseSlice.test.js",
+        "startTime": 1721625710303,
+        "status": "passed",
+        "summary": ""
+      }
+    ],
+    "wasInterrupted": false
+  }
+}

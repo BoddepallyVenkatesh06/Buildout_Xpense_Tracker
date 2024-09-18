@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title {
+  margin-top: 50px;
+}
+
+.error-page {
+  text-align: center;
+}
+
+.error-page button {
+  cursor: pointer;
+}
+
+.text-capatilize{
+  text-transform: capitalize;
+}

@@ -1,0 +1,8 @@
+.transaction-details-table {
+  margin-top: 30px;
+  min-height: 300px;
+}
+
+.transaction-delete-btn {
+  cursor: pointer;
+}

@@ -1,0 +1,98 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.landing-page {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page-form {
+  height: 100%;
+  width: 60%;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.landing-page-form div {
+  margin-top: 30px;
+}
+
+.heading1 {
+  font-size: 25px;
+}
+
+.heading2 {
+  font-size: 20px;
+}
+
+.form-container {
+  border: 1px solid black;
+  padding: 10px 40px 30px 40px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.form-container div,
+.form-container button {
+  margin-top: 20px;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.submit-btn,
+.clear-btn,
+.navigate-tracker-btn {
+  cursor: pointer;
+}
+
+#budgetTable {
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.insight-table {
+  border-collapse: collapse;
+}
+
+.transaction-page-table {
+  border-collapse: collapse;
+}
+
+#budgetTable,
+#budgetTable td,
+#budgetTable th,
+.insight-table,
+.insight-table td,
+.insight-table th,
+.transaction-page-table,
+.transaction-page-table td,
+.transaction-page-table th {
+  border: 1px solid;
+  padding: 10px 20px;
+}
+
+#budgetTable td,
+.insight-table td,
+.transaction-page-table td {
+  text-align: center;
+  vertical-align: middle;
+}

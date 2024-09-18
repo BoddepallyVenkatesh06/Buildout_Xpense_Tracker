@@ -1,0 +1,23 @@
+.insights {
+  margin: 30px;
+  margin-left: 80px;
+}
+
+.limit-within-btn,
+.limit-exceed-btn {
+  width: fit-content;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 4px 12px;
+  font-size: 0.9rem;
+  margin-left: 15px;
+}
+
+.limit-within-btn {
+  background-color: rgb(23, 140, 23);
+}
+
+.limit-exceed-btn {
+  background-color: rgb(214, 25, 25);
+}

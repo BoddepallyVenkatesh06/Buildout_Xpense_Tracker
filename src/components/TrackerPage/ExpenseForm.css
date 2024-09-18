@@ -1,0 +1,32 @@
+.expense-form {
+  margin: 30px;
+  margin-left: 80px;
+  background-color: #ddd;
+  min-height: 100px;
+  width: 550px;
+  padding: 20px;
+}
+
+.expense-form .title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.expense-form form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 20px;
+}
+
+.expense-form-input {
+  display: flex;
+  column-gap: 40px;
+}
+
+.expense-form form button {
+  cursor: pointer;
+  width: 100px;
+}
+

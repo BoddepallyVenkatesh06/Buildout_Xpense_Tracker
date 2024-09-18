@@ -1,0 +1,35 @@
+.tracker-page {
+  min-height: 80vh;
+  width: 70vw;
+  margin-top: 50px;
+  background-color: #eee;
+}
+
+.tracker-page-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+  justify-content: space-between;
+}
+
+.tracker-page h2 {
+  margin: 30px;
+  margin-left: 80px;
+}
+
+.tracker-page-title button {
+  cursor: pointer;
+  margin-right: 100px;
+  padding: 6px 12px;
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}

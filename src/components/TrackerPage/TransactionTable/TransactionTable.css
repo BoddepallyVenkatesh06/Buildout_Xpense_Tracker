@@ -1,0 +1,27 @@
+.transactions {
+  margin: 30px;
+  margin-left: 80px;
+  margin-right: 150px;
+}
+
+.transaction-filter {
+  display: flex;
+  column-gap: 30px;
+}
+
+.filter-pills {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.single-pill {
+  background-color: #ddd;
+  padding: 6px 18px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.single-pill-active {
+  background-color: #bbb;
+}
